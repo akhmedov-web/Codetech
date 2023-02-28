@@ -1,0 +1,877 @@
+* {
+  font-family: "Oxanium", cursive;
+  box-sizing: border-box;
+}
+.navbar{
+  box-shadow:0px 0px 0px #fff !important;
+  background-color:#fff;
+}
+.header_btn {
+  width: 130px;
+  height: 50px;
+  background-color: #1C2123;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+.header_btn:hover {
+  border: 2px solid #1C2123;
+  background-color: transparent;
+  color: #1C2123;
+}
+
+.banner {
+  height: 130vh;
+}
+.banner .banner-body {
+  height: 100%;
+}
+.banner .banner-body .banner_main {
+  height: 70%;
+}
+.banner .banner-body .banner_main .banner_left {
+  height: 100%;
+}
+.banner .banner-body .banner_main .banner_left .banner_title {
+  color: #000;
+  font-size: 115px;
+  list-style-type: none;
+  line-height: 8rem;
+}
+.banner .banner-body .banner_main .banner_left .banner_title span {
+  color: #3A78F2;
+}
+.banner .banner-body .banner_main .banner_right {
+  height: 100%;
+}
+.banner .banner-body .banner_main .banner_right .banner_img {
+  width: 90%;
+  height: 90%;
+}
+.banner .banner-body .banner_btn {
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #3A78F2;
+  border: none;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.banner .banner-body .banner_btn:hover {
+  border: 2px solid #3A78F2;
+  background-color: transparent;
+  color: #3A78F2;
+}
+.banner .banner-body .banner_btn-outline {
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  border: 2px solid #3A78F2;
+  background-color: transparent;
+  color: #3A78F2;
+  font-family: sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+.banner .banner-body .banner_btn-outline:hover {
+  background-color: #3A78F2;
+  color: #fff;
+}
+.banner .banner-body .sponsors_logo {
+  width: 15%;
+  filter: invert(57%) sepia(6%) saturate(630%) hue-rotate(183deg) brightness(93%) contrast(95%);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.banner .banner-body .sponsors_logo:hover {
+  filter: invert(38%) sepia(72%) saturate(2744%) hue-rotate(208deg) brightness(97%) contrast(90%);
+}
+
+.service {
+  min-height: 130vh;
+}
+.service .service_title {
+  font-size: 50px;
+  color: #000;
+}
+.service .service_tagline {
+  font-size: 21px;
+}
+.service .service_card {
+  width: 31%;
+  height: 55vh;
+  border: 2px solid rgba(128, 128, 128, 0.352);
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  padding: 1rem 2rem;
+}
+.service .service_card:hover {
+  color: #fff;
+  background-color: #3A78F2;
+}
+.service .service_card:hover > .service_icon {
+  color: #303E49;
+  background-color: #fff;
+}
+.service .service_card .service_icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #303E49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.service .service_card .service_card_body{
+  height: 60%;
+}
+
+.offer {
+  min-height: 210vh;
+}
+.offer .offer_top {
+  height: 105vh;
+  background-color: #3A78F2;
+  padding: 5rem 0px;
+}
+.offer .offer_top .offer_header {
+  width: 40%;
+  margin-bottom: 7rem;
+}
+.offer .offer_top .offer_header .offer_title {
+  font-size: 50px;
+  color: #fff;
+}
+.offer .offer_top .offer_header .offer_tagline {
+  font-size: 21px;
+  color: #F5F5F5;
+}
+.offer .offer_top .offer_video {
+  width: 100%;
+  height: 93vh;
+  border-radius: 50px;
+}
+.offer .offer_bottom {
+  height: 105vh;
+  padding: 3rem 0px;
+}
+.offer .offer_bottom .offer_card .offer_icon {
+  font-size: 40px;
+  color: #3A78F2;
+}
+
+.statistic {
+  min-height: 35vh;
+  background-color: #3A78F2;
+}
+.statistic .statistic_part {
+  height: 110px;
+  border-right: #fff 3px solid;
+}
+.statistic .statistic_part:nth-child(4) {
+  border-right: #3A78F2 3px solid;
+}
+.statistic .statistic_part h2 {
+  font-size: 42px;
+  font-family: sans-serif;
+}
+.statistic .statistic_part h5 {
+  color: rgba(255, 255, 255, 0.74);
+  font-family: sans-serif;
+}
+
+.price {
+  min-height: 125vh;
+}
+.price .price_header {
+  width: 50%;
+}
+.price .price_header .price_title {
+  font-size: 50px;
+  color: #000;
+}
+.price .price_header .price_tagline {
+  font-size: 21px;
+}
+.price .price_body .price_card {
+  width: 27%;
+}
+.price .price_body .price_card table tbody tr th, .price .price_body .price_card table thead tr th {
+  text-align: start;
+}
+.price .price_body .price_card .price_amount {
+  font-size: 25px;
+  font-weight: bold;
+  color: #3A78F2;
+}
+.price .price_body .price_card .price_btn {
+  height: 60px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+  color: #3A78F2;
+  border: 2px solid #3A78F2;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+.price .price_body .price_card .price_btn:hover {
+  background-color: #3A78F2;
+  color: #fff;
+}
+
+.contact {
+  min-height: 100vh;
+}
+.contact .contact_img {
+  height: 540px;
+  width: 540px;
+}
+.contact .contact_input {
+  display: block;
+  border-radius: 13px;
+  border: none;
+  outline: none;
+  background-color: #F5F5F5;
+}
+.contact .input-size {
+  height: 50px;
+}
+.contact .text-area-size {
+  height: 185px;
+}
+.contact .contact_btn {
+  width: 200px;
+  height: 60px;
+  background-color: #3A78F2;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+
+.feedback {
+  min-height: 130vh;
+  background-color: #F5F5F5;
+  padding: 5rem 0px;
+}
+.feedback .feedback_header {
+  width: 30%;
+}
+.feedback .feedback_header .feedback_title {
+  font-size: 50px;
+  color: #000;
+}
+.feedback .feedback_header .feedback_tagline {
+  font-size: 21px;
+}
+.feedback .feedback_body .feedback_card {
+  width: 31%;
+  min-height: 55vh;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+  padding: 30px 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.feedback .feedback_body .feedback_card:hover {
+  background-color: #fff;
+}
+.feedback .feedback_body .feedback_card .feedback_user_image {
+  width: 90px;
+  height: 90px;
+  border: #fff 3px solid;
+  box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.3);
+}
+.feedback .feedback_body .feedback_card .company_logo {
+  width: 100px;
+}
+.feedback .feedback_body .feedback_btn {
+  width: 200px;
+  height: 60px;
+  background-color: #3A78F2;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+.feedback .feedback_body .feedback_btn:hover {
+  border: 2px solid #3A78F2;
+  background-color: transparent;
+  color: #3A78F2;
+}
+
+.footer {
+  background-color: #1C2123;
+  color: #fff;
+  font-family: "Oxanium", cursive;
+}
+.footer .footer_brand {
+  width: 180px;
+}
+@media only screen and (max-width:1024px){
+  .banner {
+    height: 75vh;
+  }
+  .banner .banner-body {
+    height: 100%;
+  }
+  .banner .banner-body .banner_main {
+    height: 70%;
+    margin-bottom: 1rem;
+  }
+  .banner .banner-body .banner_main .banner_left {
+    height: 100%;
+  }
+  .banner .banner-body .banner_main .banner_left .banner_title {
+    color: #000;
+    font-size: 40px;
+    line-height: 3rem;
+  }
+  .banner .banner-body .banner_main .banner_right {
+    height: 100%;
+  }
+  .banner .banner-body .banner_main .banner_right .banner_img {
+    width: 90%;
+    height: 320px;
+  }
+  .banner .banner-body .sponsors_logo {
+    width: 20%;
+  }
+  .service {
+    min-height: 70vh;
+  }
+  .service .service_title {
+    font-size: 35px;
+  }
+  .service .service_card {
+    width: 45%;
+    height: 45vh;
+    padding: 1rem 1rem;
+  }
+  .service .service_card .service_card_body{
+    height: 100%;
+    width: 70%;
+  }
+  .service .service_card .service_icon {
+    width: 70px;
+    height: 70px;
+  }
+  .offer {
+    min-height: 140vh;
+  }
+  .offer .offer_top {
+    height: 50vh;
+    background-color: #3A78F2;
+    padding: 2rem 0px;
+  }
+  .offer .offer_top .offer_header {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+  .offer .offer_top .offer_header .offer_title {
+    font-size: 25px;
+    color: #fff;
+  }
+  .offer .offer_top .offer_header .offer_tagline {
+    font-size: 20px;
+    color: #F5F5F5;
+  }
+  .offer .offer_top .offer_video {
+    width: 100%;
+    height: 60vh;
+    border-radius: 16px;
+  }
+  .offer .offer_bottom {
+    height: 90vh;
+    padding: 1rem 0px;
+  }
+  .offer .offer_bottom .offer_card .offer_icon {
+    font-size: 40px;
+    color: #3A78F2;
+  }
+  .statistic {
+    min-height: 15vh;
+    background-color: #3A78F2;
+  }
+  .statistic .statistic_part {
+    height: 70px;
+    border-right: #fff 3px solid;
+  }
+  .statistic .statistic_part h2 {
+    font-size: 25px;
+    font-family: sans-serif;
+  }
+  .statistic .statistic_part h5 {
+    color: rgba(255, 255, 255, 0.74);
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  .price .price_header {
+    width: 100%;
+  }
+  .price .price_header .price_title {
+    font-size: 25px;
+    color: #000;
+  }
+  .price .price_header .price_tagline {
+    font-size: 16px;
+    padding: 0px 2rem;
+  }
+  .price .price_body .price_card {
+    width: 28%;
+    margin-bottom: 2rem;
+  }
+  .contact .contact_img {
+    height: 440px;
+    width: 440px;
+  }
+  .feedback {
+    min-height: 60vh;
+    background-color: #F5F5F5;
+    padding: 2rem 0px;
+  }
+  .feedback .feedback_header {
+    width: 70%;
+  }
+  .feedback .feedback_header .feedback_title {
+    font-size: 25px;
+    color: #000;
+  }
+  .feedback .feedback_header .feedback_tagline {
+    font-size: 17px;
+  }
+  .feedback .feedback_body .feedback_card {
+    width: 100%;
+    min-height: 55vh;
+    border-radius: 3px;
+    background-color: #F5F5F5;
+    padding: 30px 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+}
+@media only screen and (max-width:992px){
+  .banner {
+    height: 75vh;
+  }
+  .banner .banner-body {
+    height: 100%;
+  }
+  .banner .banner-body .banner_main {
+    height: 70%;
+    margin-bottom: 1rem;
+  }
+  .banner .banner-body .banner_main .banner_left {
+    height: 100%;
+  }
+  .banner .banner-body .banner_main .banner_left .banner_title {
+    color: #000;
+    font-size: 40px;
+    line-height: 3rem;
+  }
+  .banner .banner-body .banner_main .banner_right {
+    height: 100%;
+  }
+  .banner .banner-body .banner_main .banner_right .banner_img {
+    width: 90%;
+    height: 320px;
+  }
+  .banner .banner-body .sponsors_logo {
+    width: 20%;
+  }
+  .service {
+    min-height: 70vh;
+  }
+  .service .service_title {
+    font-size: 35px;
+  }
+  .service .service_card {
+    width: 45%;
+    height: 20vh;
+    padding: 1rem 0.6rem;
+  }
+  .service .service_card .service_card_body{
+    height: 100%;
+    width: 70%;
+  }
+  .service .service_card .service_icon {
+    width: 70px;
+    height: 70px;
+  }
+  .offer {
+    min-height: 130vh;
+  }
+  .offer .offer_top {
+    height: 50vh;
+    background-color: #3A78F2;
+    padding: 2rem 0px;
+  }
+  .offer .offer_top .offer_header {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+  .offer .offer_top .offer_header .offer_title {
+    font-size: 25px;
+    color: #fff;
+  }
+  .offer .offer_top .offer_header .offer_tagline {
+    font-size: 20px;
+    color: #F5F5F5;
+  }
+  .offer .offer_top .offer_video {
+    width: 100%;
+    height: 60vh;
+    border-radius: 16px;
+  }
+  .offer .offer_bottom {
+    height: 80vh;
+    padding: 1rem 0px;
+  }
+  .offer .offer_bottom .offer_card .offer_icon {
+    font-size: 40px;
+    color: #3A78F2;
+  }
+  .statistic {
+    min-height: 15vh;
+    background-color: #3A78F2;
+  }
+  .statistic .statistic_part {
+    height: 60px;
+    border-right: #fff 3px solid;
+  }
+  .statistic .statistic_part h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  .statistic .statistic_part h5 {
+    color: rgba(255, 255, 255, 0.74);
+    font-family: sans-serif;
+    font-size: 13px;
+  }
+  .price .price_header {
+    width: 100%;
+  }
+  .price .price_header .price_title {
+    font-size: 25px;
+    color: #000;
+  }
+  .price .price_header .price_tagline {
+    font-size: 16px;
+    padding: 0px 2rem;
+  }
+  .price .price_body .price_card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .contact .contact_img {
+    height: 440px;
+    width: 440px;
+  }
+  .feedback {
+    min-height: 60vh;
+    background-color: #F5F5F5;
+    padding: 2rem 0px;
+  }
+  .feedback .feedback_header {
+    width: 70%;
+  }
+  .feedback .feedback_header .feedback_title {
+    font-size: 25px;
+    color: #000;
+  }
+  .feedback .feedback_header .feedback_tagline {
+    font-size: 17px;
+  }
+  .feedback .feedback_body .feedback_card {
+    width: 100%;
+    min-height: 55vh;
+    border-radius: 3px;
+    background-color: #F5F5F5;
+    padding: 30px 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+}
+@media only screen and (max-width:768px){
+  .banner {
+    height: 60vh;
+  }
+  .banner .banner-body {
+    height: 100%;
+  }
+  .banner .banner-body .banner_main {
+    height: 65%;
+    margin-bottom: 1rem;
+  }
+  .banner .banner-body .banner_main .banner_left {
+    height: 100%;
+    padding: 0px 1rem;
+  }
+  .banner .banner-body .banner_main .banner_left .banner_title {
+    color: #000;
+    font-size: 40px;
+    line-height: 3rem;
+  }
+  .banner .banner-body .banner_main .banner_right {
+    height: 100%;
+  }
+  .banner .banner-body .banner_main .banner_right .banner_img {
+    width: 90%;
+    height: 350px;
+  }
+  .banner .banner-body .sponsors_logo {
+    width: 20%;
+  }
+  .service .service_title {
+    font-size: 35px;
+  }
+  .service .service_card {
+    width: 100%;
+    height: 20vh;
+    padding: 1rem 0.6rem;
+  }
+  .service .service_card .service_card_body{
+    height: 100%;
+    width: 70%;
+  }
+  .service .service_card .service_icon {
+    width: 70px;
+    height: 70px;
+  }
+  .offer {
+    min-height: 100vh;
+  }
+  .offer .offer_top {
+    height: 30vh;
+    background-color: #3A78F2;
+    padding: 2rem 0px;
+  }
+  .offer .offer_top .offer_header {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+  .offer .offer_top .offer_header .offer_title {
+    font-size: 20px;
+    color: #fff;
+  }
+  .offer .offer_top .offer_header .offer_tagline {
+    font-size: 17px;
+    color: #F5F5F5;
+  }
+  .offer .offer_top .offer_video {
+    width: 100%;
+    height: 40vh;
+    border-radius: 16px;
+  }
+  .offer .offer_bottom {
+    height: 80vh;
+    padding: 1rem 0px;
+  }
+  .offer .offer_bottom .offer_card .offer_icon {
+    font-size: 40px;
+    color: #3A78F2;
+  }
+  .statistic {
+    min-height: 15vh;
+    background-color: #3A78F2;
+  }
+  .statistic .statistic_part {
+    height: 60px;
+    border-right: #fff 3px solid;
+  }
+  .statistic .statistic_part h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  .statistic .statistic_part h5 {
+    color: rgba(255, 255, 255, 0.74);
+    font-family: sans-serif;
+    font-size: 13px;
+  }
+  .price .price_header {
+    width: 100%;
+  }
+  .price .price_header .price_title {
+    font-size: 25px;
+    color: #000;
+  }
+  .price .price_header .price_tagline {
+    font-size: 16px;
+    padding: 0px 2rem;
+  }
+  .price .price_body .price_card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .contact .contact_img {
+    height: 440px;
+    width: 440px;
+  }
+  .feedback {
+    min-height: 60vh;
+    background-color: #F5F5F5;
+    padding: 2rem 0px;
+  }
+  .feedback .feedback_header {
+    width: 70%;
+  }
+  .feedback .feedback_header .feedback_title {
+    font-size: 25px;
+    color: #000;
+  }
+  .feedback .feedback_header .feedback_tagline {
+    font-size: 17px;
+  }
+  .feedback .feedback_body .feedback_card {
+    width: 100%;
+    min-height: 55vh;
+    border-radius: 3px;
+    background-color: #F5F5F5;
+    padding: 30px 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+}
+@media only screen and (max-width:480px){
+  .banner {
+    height: 120vh;
+  }
+  .banner .banner-body {
+    height: 100%;
+  }
+  .banner .banner-body .banner_main {
+    height: 75%;
+    margin-bottom: 1rem;
+  }
+  .banner .banner-body .banner_main .banner_left {
+    height: 50%;
+  }
+  .banner .banner-body .banner_main .banner_left .banner_title {
+    color: #000;
+    font-size: 40px;
+    line-height: 3rem;
+  }
+  .banner .banner-body .banner_main .banner_right {
+    height: 50%;
+  }
+  .banner .banner-body .banner_main .banner_right .banner_img {
+    width: 80%;
+    height: 300px;
+  }
+  .banner .banner-body .sponsors_logo {
+    width: 20%;
+  }
+  .service .service_title {
+    font-size: 25px;
+  }
+  .service .service_card {
+    width: 100%;
+    height: 20vh;
+    padding: 1rem 0.6rem;
+  }
+  .service .service_card .service_card_body{
+    height: 100%;
+    width: 70%;
+  }
+  .service .service_card .service_icon {
+    width: 65px;
+    height: 65px;
+  }
+  .offer {
+    min-height: 140vh;
+  }
+  .offer .offer_top {
+    height: 30vh;
+    background-color: #3A78F2;
+    padding: 1rem 0px;
+  }
+  .offer .offer_top .offer_header {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+  .offer .offer_top .offer_header .offer_title {
+    font-size: 20px;
+    color: #fff;
+  }
+  .offer .offer_top .offer_header .offer_tagline {
+    font-size: 17px;
+    color: #F5F5F5;
+  }
+  .offer .offer_top .offer_video {
+    width: 100%;
+    height: 33vh;
+    border-radius: 16px;
+  }
+  .offer .offer_bottom {
+    height: 105vh;
+    padding: 3rem 0px;
+  }
+  .offer .offer_bottom .offer_card .offer_icon {
+    font-size: 40px;
+    color: #3A78F2;
+  }
+  .statistic {
+    min-height: 15vh;
+    background-color: #3A78F2;
+  }
+  .statistic .statistic_part {
+    height: 40px;
+    border-right: #fff 3px solid;
+  }
+  .statistic .statistic_part h2 {
+    font-size: 17px;
+    font-family: sans-serif;
+  }
+  .statistic .statistic_part h5 {
+    color: rgba(255, 255, 255, 0.74);
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+  .price .price_header {
+    width: 100%;
+  }
+  .price .price_header .price_title {
+    font-size: 25px;
+    color: #000;
+  }
+  .price .price_header .price_tagline {
+    font-size: 16px;
+    padding: 0px 2rem;
+  }
+  .price .price_body .price_card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .contact .contact_img {
+    height: 440px;
+    width: 440px;
+  }
+  .feedback {
+    min-height: 60vh;
+    background-color: #F5F5F5;
+    padding: 2rem 0px;
+  }
+  .feedback .feedback_header {
+    width: 70%;
+  }
+  .feedback .feedback_header .feedback_title {
+    font-size: 25px;
+    color: #000;
+  }
+  .feedback .feedback_header .feedback_tagline {
+    font-size: 17px;
+  }
+  .feedback .feedback_body .feedback_card {
+    width: 100%;
+    min-height: 55vh;
+    border-radius: 3px;
+    background-color: #F5F5F5;
+    padding: 30px 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+}
